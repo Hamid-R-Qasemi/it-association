@@ -1,0 +1,9 @@
+.devider {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.devider img {
+  width: 200px;
+}

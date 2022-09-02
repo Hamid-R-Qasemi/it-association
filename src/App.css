@@ -1,0 +1,107 @@
+:root {
+  --color-primary-gradient: linear-gradient(110deg, #f65900, #ff026c);
+  --color-primary: #f65900;
+}
+
+@font-face {
+  font-family: "IRAN Sans";
+  font-style: normal;
+  src: url("./assest/Fonts/IRANSansWeb.eot");
+  src: url("./assest/Fonts/IRANSansWeb.woff2"),
+    url("./assest/Fonts/IRANSansWeb.woff");
+}
+
+@font-face {
+  font-family: "IRAN Sans";
+  font-weight: lighter;
+  src: url("./assest/Fonts/IRANSansWeb_UltraLight.eot"),
+    url("./assest/Fonts/IRANSansWeb_UltraLight.woff2"),
+    url("./assest/Fonts/IRANSansWeb_UltraLight.woff");
+}
+@font-face {
+  font-family: "IRAN Sans";
+  font-weight: normal;
+  src: url("./assest/Fonts/IRANSansWeb_Light.eot"),
+    url("./assest/Fonts/IRANSansWeb_Light.woff2"),
+    url("./assest/Fonts/IRANSansWeb_Light.woff");
+}
+@font-face {
+  font-family: "IRAN Sans";
+  font-weight: bold;
+  src: url("./assest/Fonts/IRANSansWeb_Medium.eot"),
+    url("./assest/Fonts/IRANSansWeb_Medium.woff"),
+    url("./assest/Fonts/IRANSansWeb_Medium.woff");
+}
+@font-face {
+  font-family: "IRAN Sans";
+  font-weight: bolder;
+  src: url("./assest/Fonts/IRANSansWeb_Bold.eot")
+      url("./assest/Fonts/IRANSansWeb_Bold.woff2"),
+    url("./assest/Fonts/IRANSansWeb_Bold.woff");
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "PT Sans", "IRAN Sans", sans-serif;
+  direction: rtl;
+  scroll-behavior: smooth;
+}
+
+h1 {
+  font-size: 2em !important;
+}
+
+html {
+  width: auto;
+  margin: 0px !important;
+}
+
+body {
+  width: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 576px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  body {
+    font-size: 16px;
+  }
+}
+
+.link {
+  position: relative;
+  font-style: normal;
+  color: inherit;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.link::before {
+  content: "";
+  width: 0px;
+  height: 3px;
+  bottom: 0px;
+  border-radius: 50px;
+  position: absolute;
+  background: var(--color-primary-gradient);
+  background-color: #fff;
+  transition: 0.3s;
+}
+
+.link:hover {
+  cursor: pointer;
+}
+
+.link:hover::before {
+  width: 100%;
+}

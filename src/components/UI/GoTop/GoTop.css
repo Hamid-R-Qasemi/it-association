@@ -1,0 +1,23 @@
+.go-top {
+  position: fixed;
+  z-index: 50;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 0px 0px 5px;
+  border-radius: 50%;
+  background-color: rgb(243, 243, 243);
+  bottom: 10px;
+  right: 10px;
+  transition: 0.2s;
+  box-shadow: 0px 0px 20px 0px #0001, 0px 0px 5px 0px #0002,
+    7px 7px 20px 0px #0001, 4px 4px 5px 0px #0002, inset 5px 5px 5px 0px #ffff,
+    inset -5px -5px 5px 0px #0001;
+}
+
+.go-top img {
+  width: 70%;
+  height: 70%;
+}

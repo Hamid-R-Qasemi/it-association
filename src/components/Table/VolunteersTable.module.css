@@ -1,0 +1,63 @@
+.scrollable {
+  padding: 0px 25px;
+  padding-bottom: 0px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  height: 300px;
+  overflow-x: auto;
+}
+
+.scrollable::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+.scrollable::-webkit-scrollbar-track {
+  border-radius: 15px;
+  background: #eeeeee;
+}
+
+.scrollable::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 15px;
+}
+
+.scrollable::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 0 15px;
+  margin: 0px auto;
+  width: 100%;
+  min-width: 700px;
+  border-color: #636363;
+  overflow-x: scroll;
+}
+
+table > :not(caption) > * > * {
+  border-bottom-width: 1px;
+}
+
+th {
+  border-bottom: 2px solid #636363;
+}
+
+td:first-child {
+  border-radius: 0px 55px 55px 0px;
+}
+
+td:last-child {
+  border-radius: 55px 0px 0px 55px;
+}
+td {
+  padding: 10px 10px;
+  text-align: center;
+  background-color: #eeeeee;
+  transition: 0.2s;
+}
+.table-row:hover td {
+  color: #fff;
+  background-color: #636363;
+}

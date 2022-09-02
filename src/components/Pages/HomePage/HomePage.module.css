@@ -1,0 +1,226 @@
+:root {
+  --color-primary-gradient: linear-gradient(110deg, #f65900, #ff026c);
+  --color-primary: #f65900;
+}
+
+.container {
+  height: 100%;
+}
+
+.heading {
+  margin: 0px 30px;
+  border-bottom: 1px solid #ccc;
+}
+
+.content {
+  width: 100%;
+  height: auto;
+}
+
+.comments {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.courses {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  padding: 0px 30px;
+  margin-top: 30px;
+}
+
+.courses > div {
+  max-width: 30%;
+  flex-basis: 30%;
+  margin: 0px 24px;
+  margin-bottom: 50px;
+}
+
+.about {
+  display: flex;
+  flex-direction: row;
+  margin: 0px 30px;
+  padding: 30px 20px 20px;
+  height: 160px;
+  justify-content: center;
+  align-items: center;
+}
+
+.about .description {
+  padding-left: 20px;
+  border-left: 2px dashed var(--color-primary);
+  height: 100%;
+  width: 250px;
+  text-align: justify;
+}
+
+.about .description > span {
+  color: #636363 !important;
+}
+.about .communication {
+  padding-right: 20px;
+  height: 100%;
+}
+
+.about .communication span a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  color: #636363;
+  margin-bottom: 3px;
+}
+
+.about .communication img {
+  width: 23px;
+}
+
+.members {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 0px 30px;
+  margin-top: 30px;
+  padding-top: 70px;
+}
+
+.members > div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  max-width: 30%;
+  flex-basis: 30%;
+  height: 17rem;
+  margin-bottom: 90px;
+  padding-bottom: 20px;
+}
+
+.members img {
+  width: 13rem;
+  height: 13rem;
+  margin-top: -30%;
+  border: 2px solid #eeeeee;
+  border-radius: 5000px;
+}
+
+.video-frame {
+  width: 100%;
+  height: 500px;
+}
+
+.video-frame iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.pre-footer {
+  width: 100%;
+  height: 80vh;
+  background-image: url("../../../assest/footerSvg.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pre-footer-content {
+  width: 50%;
+  margin-top: 10%;
+  text-align: center;
+}
+
+.pre-footer-content h1 {
+  color: #fff;
+}
+
+@media screen and (max-width: 1400px) {
+  .courses > div {
+    max-width: 30%;
+    flex-basis: 30%;
+    margin: 0px 24px;
+    margin-bottom: 50px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .courses > div {
+    max-width: 40%;
+    flex-basis: 50%;
+    margin: 30px auto !important;
+  }
+
+  .members {
+    justify-content: center;
+  }
+  .members > div {
+    max-width: 40%;
+    flex-basis: 50%;
+    margin: 0px 30px 80px 30px;
+    padding: 30px 10px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .pre-footer-content {
+    width: 90%;
+  }
+
+  .courses > div {
+    max-width: 100%;
+    flex-basis: 100%;
+    margin: 20px 0px;
+  }
+
+  .members {
+    justify-content: center;
+  }
+  .members > div {
+    max-width: 45%;
+    flex-basis: 45%;
+    height: 19rem;
+    margin: 0px 10px 60px 15px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .about {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0px;
+    padding: 30px 20px 20px;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about .description {
+    padding-left: 0px;
+    padding-bottom: 20px;
+    border: none;
+    border-bottom: 2px dashed var(--color-primary);
+    height: 100%;
+  }
+
+  .about .communication {
+    padding-right: 0px;
+    padding-top: 20px;
+  }
+  .about .communication span a {
+    margin-bottom: 10px;
+  }
+  .members > div {
+    max-width: 100%;
+    flex-basis: 100%;
+    height: 20rem;
+    margin: 0px 0px 70px 0px;
+  }
+}

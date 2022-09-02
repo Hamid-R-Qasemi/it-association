@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="16" y1="4" x2="16" y2="20" id="gradient-0" gradientTransform="matrix(0.704429, -0.709775, 1.621873, 1.609657, -13.858408, 8.731615)">
+      <stop offset="0" style="stop-color: rgb(246, 89, 0);"/>
+      <stop offset="1" style="stop-color: rgb(255, 2, 108);"/>
+    </linearGradient>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="16" y1="4" x2="16" y2="20" id="gradient-3" gradientTransform="matrix(0.690312, -0.723511, 1.838279, 1.753927, -17.625562, 6.773394)">
+      <stop offset="0" style="stop-color: rgb(246, 89, 0);"/>
+      <stop offset="1" style="stop-color: rgb(255, 2, 108);"/>
+    </linearGradient>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="16" y1="15.2" x2="16" y2="27" id="gradient-1" gradientTransform="matrix(0.733942, -0.679211, 2.072943, 2.23998, -38.532795, -19.670825)">
+      <stop offset="0" style="stop-color: rgb(246, 89, 0);"/>
+      <stop offset="1" style="stop-color: rgb(255, 2, 108);"/>
+    </linearGradient>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="15.383" y1="13.273" x2="15.383" y2="25.073" id="gradient-4" gradientTransform="matrix(0.702997, -0.711193, 2.47996, 2.451377, -42.959239, -19.837757)">
+      <stop offset="0" style="stop-color: rgb(255, 94, 0);"/>
+      <stop offset="1" style="stop-color: rgb(255, 2, 108);"/>
+    </linearGradient>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="31" y1="12" x2="31" y2="25" id="gradient-2" gradientTransform="matrix(0.72054, -0.693413, 1.915962, 1.990916, -39.608096, 0.743851)">
+      <stop offset="0" style="stop-color: rgb(246, 89, 0);"/>
+      <stop offset="1" style="stop-color: rgb(255, 2, 108);"/>
+    </linearGradient>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="31" y1="12" x2="31" y2="25" id="gradient-5" gradientTransform="matrix(0.711719, -0.702464, 2.210944, 2.240077, -47.453858, -3.529196)">
+      <stop offset="0" style="stop-color: rgb(246, 89, 0);"/>
+      <stop offset="1" style="stop-color: rgb(255, 2, 108);"/>
+    </linearGradient>
+    <style type="text/css">
+	.st0{fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+</style>
+  </defs>
+  <polygon class="st0" points="16 4 1 11.926 16 20 31 12" style="fill: url(#gradient-0); fill-opacity: 0; stroke: url(#gradient-3); stroke-width: 1px;"/>
+  <path class="st0" d="M7,15.2V22c0,2.2,4,5,9,5c5,0,9-2.8,9-5v-6.8" style="fill: url(#gradient-1); fill-opacity: 0; stroke: url(#gradient-4); stroke-width: 1px;"/>
+  <line class="st0" x1="31" x2="31" y1="12" y2="25" style="fill: url(#gradient-2); stroke: url(#gradient-5); stroke-width: 1px;"/>
+</svg>
